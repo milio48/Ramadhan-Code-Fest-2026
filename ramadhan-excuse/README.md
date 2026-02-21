@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+# Ramadhan Excuse Protocol
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Web eksperimen ringan memadukan nuansa Ramadhan + Web3.
 
-## Setup
+## Tech Stack
+- Nuxt 3
+- Solana (Phantom Wallet)
+- PocketBase (tentatif)
 
-Make sure to install dependencies:
+## Roadmap 7 Hari
+- Day 1: Wallet connect
+- Day 2: Session handling
+- Day 3: Excuse generator
+- Day 4: On-chain interaction
+- Day 5: UI polish
+- Day 6: Bugfix
+- Day 7: Deploy
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Built for fun, learning, and experiments
