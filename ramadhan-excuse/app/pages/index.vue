@@ -15,6 +15,7 @@
     <button class="generate" @click="roll">
       Generate Excuse
     </button>
+    <ExcuseCanvas v-if="excuse" :text="excuse.text" :rarity="excuse.rarity" />
   </main>
 </template>
 
@@ -22,6 +23,7 @@
 import { ref } from 'vue'
 import WalletConnect from '~/components/WalletConnect.vue'
 import { generateExcuse } from '../../lib/excuseEngine'
+import ExcuseCanvas from '~/components/ExcuseCanvas.vue'
 
 const excuse = ref<any>(null)
 
